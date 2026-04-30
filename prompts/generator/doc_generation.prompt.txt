@@ -1,0 +1,7 @@
+Write a messy but plausible operational $doc_type for a Europa mission assembly.
+Assembly: $assembly_surface ($assembly_name)
+Include 4-6 components, 2-3 supplies, one supplier reference, and one small inconsistency or shorthand naming issue.
+Components: $components
+Supplies: $supplies
+Supplier refs: $suppliers
+Keep under 350 words. No markdown code fences.

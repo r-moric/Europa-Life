@@ -1,0 +1,10 @@
+[project]
+name = "europa-life-phase1"
+version = "0.1.0"
+description = "Truth-first SQLite benchmark for document generation, entity resolution, audit, and reporting."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

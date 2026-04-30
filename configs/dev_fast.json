@@ -1,0 +1,40 @@
+{
+  "profile_name": "dev_fast",
+  "seed": 42,
+  "component_count": 120,
+  "assembly_count": 18,
+  "supply_count": 36,
+  "ollama_url": "http://localhost:11434",
+  "ollama_timeout_sec": 180,
+  "quality_model": "mistral-small3.1:latest",
+  "fast_model": "qwen2.5:7b-instruct",
+  "resolver_model": "mistral-small3.1:latest",
+  "resolver_llm_enabled": false,
+  "auditor_model": "mistral-small3.1:latest",
+  "resolver_llm_min_mention_len": 12,
+  "resolver_llm_score_threshold": 0.995,
+  "resolver_llm_max_options": 6,
+  "resolver_llm_review_methods": [],
+  "keep_alive": "30m",
+  "document_types": [
+    "ENGINEERING_SPEC",
+    "SUPPLIER_QUOTE",
+    "EMAIL",
+    "MAINTENANCE_NOTE",
+    "TEST_REPORT",
+    "PRICE_LIST"
+  ],
+  "package_count": 4,
+  "docs_per_package": 4,
+  "source_mix": {
+    "template": 94,
+    "fast": 5,
+    "quality": 1
+  },
+  "auditor_timeout_sec": 900,
+  "auditor_retry_count": 1,
+  "auditor_retry_backoff_sec": 10,
+  "audit_commit_every": 1,
+  "auditor_keep_alive": "30m",
+  "auditor_case_limit": 12
+}

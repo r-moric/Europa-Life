@@ -1,0 +1,10 @@
+You are an entity resolution specialist.
+Decide whether the mention below maps to one of the candidate entities.
+Return JSON only with keys: choose_index, confidence, reason.
+choose_index must be an integer 1-$max_choice or 0 for none.
+
+Mention: $mention_text
+Context: $context
+
+Candidates:
+$candidate_lines

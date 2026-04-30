@@ -1,0 +1,46 @@
+{
+  "profile_name": "workspace_large",
+  "seed": 42,
+  "component_count": 500,
+  "assembly_count": 64,
+  "supply_count": 132,
+  "ollama_url": "http://localhost:11434",
+  "ollama_timeout_sec": 420,
+  "quality_model": "qwen2.5:14b",
+  "fast_model": "qwen2.5:14b",
+  "resolver_model": "mistral-small3.1:latest",
+  "resolver_llm_enabled": true,
+  "auditor_model": "deepseek-r1:14b-qwen-distill-q4_K_M",
+  "resolver_llm_min_mention_len": 4,
+  "resolver_llm_score_threshold": 0.89,
+  "resolver_llm_max_options": 6,
+  "resolver_llm_review_methods": [
+    "CANONICAL_NAME_RANKED",
+    "CANONICAL_NAME_FALLBACK",
+    "PART_ALIAS_SHORT_NAME_FALLBACK",
+    "NAME_VARIANT_FALLBACK",
+    "DIRECT_SUPPLY_CODE_FALLBACK"
+  ],
+  "keep_alive": "120m",
+  "document_types": [
+    "ENGINEERING_SPEC",
+    "SUPPLIER_QUOTE",
+    "EMAIL",
+    "MAINTENANCE_NOTE",
+    "TEST_REPORT",
+    "PRICE_LIST"
+  ],
+  "package_count": 48,
+  "docs_per_package": 6,
+  "source_mix": {
+    "template": 52,
+    "fast": 10,
+    "quality": 38
+  },
+  "auditor_timeout_sec": 3600,
+  "auditor_retry_count": 1,
+  "auditor_retry_backoff_sec": 30,
+  "audit_commit_every": 1,
+  "auditor_keep_alive": "180m",
+  "auditor_case_limit": 144
+}

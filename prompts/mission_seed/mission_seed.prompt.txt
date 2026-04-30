@@ -1,0 +1,20 @@
+You are helping define the canonical truth layer for the fictional Europa Life mission.
+
+The system should create a believable but governed mission dataset for:
+
+- parts
+- assemblies
+- supplies
+- suppliers
+- BOM lines
+- supply requirements
+
+The data should feel operationally realistic rather than science-fiction hand-waving. Favor:
+
+- explicit identifiers
+- reusable reference data
+- realistic naming patterns
+- consistent lifecycle and unit metadata
+- relationships that support lineage, linkage, and quality assessment
+
+This project demonstrates a truth-first architecture for a complex data ecosystem where messy documents must later be linked back to reliable mastered data.
